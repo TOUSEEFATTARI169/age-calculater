@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Age Calculator</h1>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob">
+        <button onclick="calculateAge()">Calculate Age</button>
+        <div class="result-container">
+            <div class="card" id="yearsCard">
+                <h2>Years</h2>
+                <p id="years"></p>
+            </div>
+            <div class="card" id="monthsCard">
+                <h2>Months</h2>
+                <p id="months"></p>
+            </div>
+            <div class="card" id="daysCard">
+                <h2>Days</h2>
+                <p id="days"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
